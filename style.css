@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.pixabay.com/photo/2017/03/30/18/17/girl-2189247_1280.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width:100%;
+}
+
+.header img{
+    margin: 30px 0px 30px 50px;
+}
+
+.logo a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu li{
+    color:white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color:red;
+}
+
+.header-content{
+    padding-top: 30px;
+}
+
+.header-content h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 50px;
+    width:400px;
+}
+
+.header-content p{
+    color:white;
+    text-transform: uppercase;
+    font-size: 10px;
+    width:350px;
+
+}
